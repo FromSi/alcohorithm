@@ -5,7 +5,7 @@ def make(numbers):
             if numbers[j] > numbers[j + 1]:
                 numbers[j], numbers[j + 1] = numbers[j + 1], numbers[j]
     return numbers
+
 if __name__ == '__main__':
     numbers = [123, 12, 34, 111, 5]
     print(make(numbers))
-
